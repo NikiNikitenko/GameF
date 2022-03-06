@@ -9,6 +9,7 @@ namespace BoardF
     public class Game
     {
         int size;
+        public int moves { get; private set; }
 
         public Game(int size)
         {
@@ -22,6 +23,16 @@ namespace BoardF
         public int PressAt( int x, int y)
         {
             return 0;
+        }
+
+        public int GetDigitAt(int x, int y)
+        {
+            return 0;
+        }
+
+        public bool Solved()
+        {
+            return false;
         }
     }
 }
